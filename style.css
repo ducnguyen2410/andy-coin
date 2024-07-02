@@ -52,6 +52,7 @@
   margin-left: 40px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   gap: 16px;
 }
@@ -249,7 +250,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   width: 100%;
   position: relative;
   background-color: #dff8eb;
@@ -432,4 +432,179 @@
   height: 100%;
   background-color: #33a1fd;
   font-size: 0.8em;
+}
+
+@media only screen and (max-device-width: 431px) and (max-device-height: 933px) {
+    .logo img {
+      width: 50px;
+    }
+
+    .token-name span:nth-child(1) {
+      width: 100%;
+      position: absolute;
+      font-size: 1em;
+      left: 0;
+      top: -20px;
+    }
+
+    .token-name span:nth-child(2) {
+      width: 100%;
+      font-size: 0.7em;
+      left: 5px;
+      top: 5px;
+      text-align: center;
+      align-items: center;
+      position: absolute;
+    }
+
+    .contact img {
+      width: 30px;
+    }
+
+    .token-name {
+      position: relative;
+      height: 100%;
+      width: 70px;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      margin-left: 0;
+    }
+    
+    .intro .ca {
+      font-size: 1em;
+    }
+
+    .intro {
+      width: 100%;
+      height: 70vh;
+      background-image: url("./andy_logo-removebg-preview\ \(1\)\ \(1\).png");
+      background-position: center center;
+      background-color: #1789fc;
+      z-index: 1;
+      position: relative;
+      background-position: top;
+      overflow: hidden; /* Ensures no overflow from the pseudo-element */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      object-fit: contain;
+    }
+
+    .token-decorate > span:nth-child(1) {
+      font-size: 2em;
+    }
+
+    .token-11 {
+      display: none;
+    }
+
+    .token-12 {
+      display: none;
+    }
+
+    .token-6 {
+      display: none;
+    }
+
+    .token-7 {
+      display: none;
+    }
+
+    .banner {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .banner img {
+      width: 90%;
+    }
+
+    .banner span {
+      width: 100px;
+      height: 50px;
+      font-size: 0.7em;
+      text-align: center;
+      align-items: center;
+      left: 200px;
+      bottom: 10px;
+    }
+
+    .how-to-buy > span:nth-child(1) {
+      font-size: 1em;
+      height: 70px;
+      width: 60%;
+      padding: 10px 0;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .img1_flying {
+      bottom: 0;
+      left: 50px;
+      width: 50px;
+    }
+
+    .img2_flying {
+      bottom: 0;
+      right: 50px;
+      top: 150px;
+      width: 50px;
+    }
+
+    .steps {
+      width: 60%;
+      padding: 0;
+      gap: 10px;
+    }
+
+    .step-box {
+      gap: 15px;
+    }
+
+    .step-box div {
+      gap: 20px;
+    }
+
+    .step-box span {
+      font-size: 1.2em;
+    }
+
+    .step-box div span:nth-child(1) {
+      font-size: 1.2em;
+    }
+
+    .step-box div span:nth-child(2) {
+      font-size: 0.8em;
+    }
+
+    .token-flying1 {
+      left: 20px;
+    }
+
+
+    .token-flying2 {
+      left: 20px;
+      display: none;
+    }
+
+    .background img:nth-child(1) {
+      width: 200px;
+    }
+
+    .background img:nth-child(2) {
+      width: 200px;
+      right: 20%;
+      top: 54%;
+    }
 }
