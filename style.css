@@ -606,11 +606,12 @@
 
     .background img:nth-child(2) {
       width: 200px;
-      right: 20%;
-      top: 54%;
+      right: 17%;
+      top: 51%;
     }
 
     .socials {
       padding-bottom: 30px;
+      height: 60vh;
     }
 }
