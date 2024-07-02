@@ -84,6 +84,7 @@
   z-index: -1; /* Ensure it's below the content but above any negative stacked elements */
   background-image: inherit; /* Inherit the background image from the parent */
   filter: brightness(50%);
+  background-size: inherit;
   background-color: inherit;
 }
 
@@ -434,7 +435,7 @@
   font-size: 0.8em;
 }
 
-@media only screen and (max-device-width: 431px) and (max-device-height: 933px) {
+@media only screen and (max-device-width: 450px) and (max-device-height: 950px) {
     .logo img {
       width: 50px;
     }
@@ -483,6 +484,7 @@
     .intro {
       width: 100%;
       height: 70vh;
+      padding-bottom: 40px;
       background-image: url("./andy_logo-removebg-preview\ \(1\)\ \(1\).png");
       background-position: center center;
       background-color: #1789fc;
@@ -606,5 +608,9 @@
       width: 200px;
       right: 20%;
       top: 54%;
+    }
+
+    .socials {
+      padding-bottom: 30px;
     }
 }
